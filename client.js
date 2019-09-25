@@ -1,3 +1,5 @@
+const net = require('net');
+
 const conn = net.createConnection({
   host: '192.168.88.56', // change to IP address
   port: 3000
